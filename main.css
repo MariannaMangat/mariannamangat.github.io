@@ -1,0 +1,447 @@
+/* ============================
+		Backgrounds
+=============================== */
+body, html {
+	width: 100%;
+	height: 100%;
+	font-size: 1em; /* 16px */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Hevletica, Arial, sans-serif;	
+	font-weight: 400;
+}
+
+/* End of Backgrounds */
+
+/* ============================
+		Navbar
+=============================== */
+.navbar{
+	letter-spacing: 1px;
+	font-weight: 400;
+	background: #f3f1f1;
+	border-bottom: 1px outset rgba(190,190,190, 0.5);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+}
+
+.navbar ul.navbar-nav li a{
+	background: rgba(28,28,28,0);
+	color:#100;
+}
+
+#name{
+	color: black;
+}
+
+#name:hover,
+#name:focus {
+	background: rgba(255,255,255,0.5);
+	color: #000;
+}
+
+.navbar ul.navbar-nav li a:hover,
+.navbar ul.navbar-nav li a:focus {
+	background: rgba(255,255,255,0.5);
+	color: #000;
+}
+/* End of Navbar */
+	
+/* ============================
+		Index Page
+=============================== */
+.bg-overlay1 {
+	padding: 100px 0px 50px 0px;
+	text-align: center;
+	background: url('https://drive.google.com/uc?export=download&id=1Q7DqfQG21xukeOPerChiWc13BKvCu2EV') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 800px;
+	color: black;
+}
+
+.bg-overlay1 > h2 {
+	font-family: Lobster;
+	font-size: 3em;
+	letter-spacing: 2px;
+	margin-top: 110px;
+}
+
+.bg-overlay1 > h1 {
+	margin-top: 0px;
+	font-size: 3.8em;
+	letter-spacing: 3px;
+	font-family: Lobster;
+}
+
+.index-buttons {
+	position: relative;
+	padding-top: 30px;
+}
+
+.index-buttons li > a:hover,
+.index-buttons li > a:focus {
+	transform: scale(1.1);
+	color: #e70;
+}
+/* End of Index Page */
+
+/* ============================
+		About Page
+=============================== */
+.bg-overlay2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url('https://drive.google.com/uc?export=download&id=10l4sRWlji0o-PMNMBuWRx2tzuop5F48-') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* p {
+	text-align: center;
+} */
+
+.page-title {
+	font-family: Lobster;
+	letter-spacing: 1.5px;
+	padding-top: 40px;
+	margin-bottom: 2%;
+	font-weight: bolder;
+	font-size: 31px;
+	color: black;
+}
+
+.img-circle {
+	width: 9em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-text {
+	line-height: 1.5;
+	padding: 30px 320px 0px 320px;
+	/* text-align: center; */
+	text-transform: none;
+	font-size: 18px;
+	color: black;
+}
+
+.skills-box {
+	padding: 0px 0px 100px 0px;
+}
+
+.skill-botton {
+	background-color: rgba(255,255,0,0.8);
+	margin: 5px;
+	font-size: 2em;
+}
+/* End of About Page */
+
+/* ============================
+		Portfolio Page
+=============================== */
+.bg-overlay3 {
+	padding: 50px 60px 100px 60px;
+	text-align: center;
+	background: url('https://drive.google.com/uc?export=download&id=1irCQsu8ADkmuW_KpeKH9cx4QLZa3ltwg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-overlay3 > h3 {
+	font-size: 20px;
+	color: black;
+}
+
+.portfolio-flex {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+	padding-bottom: 70px;
+}
+
+.project-img {
+	width: 100%;
+}
+
+.project-img > img {
+	width: 100%;
+}
+ 
+.project-box > a {
+	background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+    vertical-align: top;
+    width: 90%;
+}
+	
+.project-box > a:hover,
+.project-box > a:focus {
+	transform: scale(1.05);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.7);
+	text-decoration: none;
+	color: #000;
+}
+/* End of Portfolio Page */
+
+/* ============================
+		Contact Page
+=============================== */
+.bg-overlay4 {
+	padding: 100px 100px 120px 100px;
+	background: url('https://drive.google.com/uc?export=download&id=1bkvfSjeA1_HFQePnjW4BcxdkC64yuJ-Z') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.contact-area {
+	padding-top: 50px;
+
+}
+
+.bg-overlay4 > h2 {
+	padding-bottom: 10px;
+}
+
+.form-control {
+	color: black;
+	box-shadow: inset 2px 2px 4px 0px gray;
+}
+
+.contact-text {
+	padding: 80px 50px 0px 90px;
+	color: black;
+}
+
+.contact-buttons {
+	text-align: left;
+}
+
+.contact-buttons > li {
+	padding-top: 30px;
+	box-shadow: 0 10px 10px -15px black;
+}
+
+.contact-buttons li > a:hover,
+.contact-buttons li > a:focus {
+	transform: scale(1.1);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.7);
+	color: #28e;
+}
+/* End of Contact Page */
+
+/* ============================
+		Footer
+=============================== */
+.bg-overlay5 {
+	background: lightgray;
+	padding: 30px 100px 0px 100px;
+	height: 150px;
+}
+
+.copyright{
+	padding-top: 50px;
+}
+/* End of Footer */
+
+
+
+/* ===================================
+	Mobile Screen Configuration
+===================================== */
+
+@media (max-height: 630px) {
+	.bg-overlay1 {
+		color: black;
+	}
+	
+	.bg-overlay1 > h2 {
+		font-size: 3em;
+		margin-top: 80px;
+		font-family: Lobster;
+		font-size: 40px;
+		letter-spacing: 3px;
+	}
+	
+	.bg-overlay1 > h1 {
+		font-size: 3.6em;
+	}
+
+	ul.index-buttons > li {
+		 margin-top: -10%;
+		 margin-bottom: 0%;		 		
+  	}
+	
+	.bg-overlay2 {
+		padding-top: 80px;
+		padding-bottom: 100px;
+	}
+	
+	.page-title {
+		padding-top: 0px;
+		font-size: 2em;
+	}
+
+	.img-circle {
+	
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	
+ 	.about-text {
+		line-height: 1.5;
+		padding: 20px 20px 0px 0px;
+		text-align: justify;
+		text-transform: none;
+	}
+	 
+	.skill-botton {
+ 		font-size: .8em; 
+	}
+		
+	.bg-overlay3 {
+		padding-top: 80px;
+		color: black;
+	}
+	
+	.bg-overlay4 {
+		padding-top: 80px;
+		padding-bottom: 100px;
+		color: black;
+	}
+	
+	.form-group {
+		margin-top: 20px;	
+	}	
+}
+
+/*====== max-height: 650px ======*/
+
+@media (min-width: 991px) {
+	.bg-overlay1 {
+ 		color: black;
+	}
+	
+	.bg-overlay1 > h1 {
+		font-size: 3em;
+	}
+	
+	.bg-overlay1 > h2 {
+		font-size: 2em;
+	}
+	
+	ul.index-buttons > li {
+		margin-top: -15%;
+		margin-bottom: 0%;
+		padding: 1%;
+  	}
+	
+	.bg-overlay2 {
+		padding-top: 100px;
+		padding-bottom: 100px;	
+	}
+	
+	.img-circle {
+		width: 7em;
+		display: block;
+		margin-left: auto;
+    		margin-right: auto;
+	}
+
+	.skill-botton {
+		font-size: .8em;
+	}
+	
+	.bg-overlay3 {
+		padding-top: 100px;
+	}
+	
+	.bg-overlay4 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.form-group {
+		margin-top: 30px;	
+	}	
+}
+
+/*=== max-width: 991px ===*/
+
+/*@media (max-width: 640px) {
+	.bg-overlay1 {
+		color: black;
+	}
+	
+	.bg-overlay1 > h1 {
+		font-size: 3em;
+	}
+	
+	.bg-overlay1 > h2 {
+		font-size: 2em;
+	}
+	
+	 ul.index-buttons > li {
+		 margin-top: -15%;
+		 margin-bottom: 0%;
+		 padding: 1%;
+	}
+
+	.bg-overlay2 {
+		padding-top: 100px;
+		margin-bottom: -100px;
+	}
+	
+	.img-circle {
+		width: 7em;
+		display: block;
+    		margin-left: auto;
+   		margin-right: auto;
+	}
+	
+	.skill-botton {
+		font-size: .6em;
+		margin: 10px;
+	}
+	
+	.bg-overlay3 {
+		padding-top: 100px;
+	}
+	
+	.project-box > h4 {
+		font-size: .7em;
+	}
+	
+	.bg-overlay4 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.form-group {
+		margin-top: 30px;	
+	}
+}*/
+
+/*=== max-width: 640px ===*/
+	
+/* End of Mobile Screen Configuration */
+
+
+
