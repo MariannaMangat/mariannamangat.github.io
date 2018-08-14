@@ -107,11 +107,11 @@ d3.csv("data.csv", function (err, allData) {
     // Creating event listeners to display and hide the tooltip
     // ==============================
     circlesGroup.on("mouseover", function (data) {
-        toolTip.show(data);
+        toolTip.show(data);    
     })
         // onmouseout event
         .on("mouseout", function (data, index) {
-            toolTip.hide(data);
+            toolTip.hide(data);   
         });
 
     // Creating axes labels
