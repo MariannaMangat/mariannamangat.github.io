@@ -122,12 +122,12 @@ d3.csv("data.csv", function (err, allData) {
         .attr("x", 0 - (height / 2))
         .attr("dy", "1em")
         .attr("class", "axisText")
-        .text("Smokers (%)");
+        .text("Age (Median)"); 
 
     chartGroup.append("text")
         .attr("transform", `translate(${width / 2}, ${height + margin.top - 10})`)
         .attr("class", "axisText")
-        .text("Age (Median)");
+        .text("Smokers (%)");
 
 
 
