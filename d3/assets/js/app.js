@@ -1,3 +1,7 @@
+// opacity 0.9
+// text before circle
+
+
 // Setting graph size and margins
 // ==============================
 var svgWidth = 960;
@@ -67,28 +71,30 @@ d3.csv("data.csv", function (err, allData) {
     chartGroup.append("g")
         .call(leftAxis);
 
-
-    // Creating Circles
-    // ==============================
-    var circlesGroup = chartGroup.selectAll("circle")
-        .data(allData)
-        .enter().append("circle")
-        .attr('class', 'stateCircle')
-        .attr("cx", d => xLinearScale(d.smokes))
-        .attr("cy", d => yLinearScale(d.age))
-        .attr("r", "15")
-        
+    
     //  Adding state abbreviation
     // ==============================
     chartGroup.selectAll('text.stateText')
-        .data(allData)
-        .enter().append('text')
-        .text(d => d.abbr)
-        .attr('class', 'stateText')
-        .attr('x', d => xLinearScale(d.smokes))
-        .attr('y', d => yLinearScale(d.age - 0.25));
+    .data(allData)
+    .enter().append('text')
+    .text(d => d.abbr)
+    .attr('class', 'stateText')
+    .attr('x', d => xLinearScale(d.smokes))
+    .attr('y', d => yLinearScale(d.age - 0.25));
 
-      
+        
+        
+    // Creating Circles
+    // ==============================
+    var circlesGroup = chartGroup.selectAll("circle")
+    .data(allData)
+    .enter().append("circle")
+    .attr('class', 'stateCircle')
+    .attr("cx", d => xLinearScale(d.smokes))
+    .attr("cy", d => yLinearScale(d.age))
+    .attr("r", "15")
+    .attr('opacity', '0.4');
+
 
     // Initializing tool tip
     // ==============================
