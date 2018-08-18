@@ -1,7 +1,3 @@
-// opacity 0.9
-// text before circle
-
-
 // Setting graph size and margins
 // ==============================
 var svgWidth = 960;
