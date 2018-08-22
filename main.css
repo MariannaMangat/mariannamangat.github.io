@@ -136,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills-box {
 	padding: 0px 0px 100px 0px;
+	font-weight:bolder;
 }
 
 .skill-botton {
@@ -273,14 +274,14 @@ h1, h2, h3, h4, h5, h6 {
 	
 	.bg-overlay1 > h2 {
 		font-size: 3em;
-		margin-top: 80px;
+		margin-top: 60px;
 		font-family: Lobster;
 		font-size: 40px;
 		letter-spacing: 3px;
 	}
 	
 	.bg-overlay1 > h1 {
-		font-size: 3.6em;
+		font-size: 3em;
 	}
 
 	ul.index-buttons > li {
@@ -330,13 +331,19 @@ h1, h2, h3, h4, h5, h6 {
 	.form-group {
 		margin-top: 20px;	
 	}	
+
+	.contact-text {
+	padding: auto;
+	color: black;
+}
 }
 
-/*====== max-height: 650px ======*/
+/*====== max-height: 630px ======*/
 
-@media (min-width: 991px) {
+@media (min-width: 1300px) {
 	.bg-overlay1 {
- 		color: black;
+		color: black;
+		height: 900px;
 	}
 	
 	.bg-overlay1 > h1 {
