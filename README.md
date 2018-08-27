@@ -2,4 +2,4 @@
 
 ## Data Analytics and Data Visualizations
 
-Online portfolio can be found here [https://mariannamangat.github.io/](https://mariannamangat.github.io/).
+Online portfolio can be found here: [https://mariannamangat.github.io/](https://mariannamangat.github.io/).
