@@ -1,5 +1,5 @@
 # Marianna Mangat - Portfolio and Projects
-- - -
 
+## Data Analytics and Data Visualizations
 
-Please check out my online portfolio https://mariannamangat.github.io/.
+Online portfolio can be found here [https://mariannamangat.github.io/](https://mariannamangat.github.io/).
