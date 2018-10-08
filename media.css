@@ -1,0 +1,174 @@
+/* ============================
+		Index Page
+=============================== */
+
+
+@media (max-height: 630px) {
+	.bg-overlay1 {
+		color: black;
+	}
+	
+	.bg-overlay1 > h2 {
+		font-size: 3em;
+		margin-top: 60px;
+		font-family: Lobster;
+		font-size: 40px;
+		letter-spacing: 3px;
+	}
+	
+	.bg-overlay1 > h1 {
+		font-size: 3em;
+	}
+
+	ul.index-buttons > li {
+		margin-top: 0%;
+		margin-bottom: 0%;
+		box-shadow: 0 10px 10px -10px black;		 		
+	  }
+}
+
+@media (min-width: 1300px) {
+	.bg-overlay1 {
+		color: black;
+		height: 900px;
+	}
+	
+	.bg-overlay1 > h1 {
+		font-size: 3em;
+	}
+	
+	.bg-overlay1 > h2 {
+		font-size: 2em;
+	}
+	
+	ul.index-buttons > li {
+		margin-top: -15%;
+		margin-bottom: 0%;
+		padding: 1%;
+	  }
+}
+
+/* End of Index Page */
+
+/* ============================
+		About Page
+=============================== */
+
+@media (max-height: 630px) {
+	.bg-overlay2 {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+	.about-text {
+		height: auto;
+		width: 90%;
+	}
+
+	.page-title {
+		font-size: 2em;
+	}
+
+	.img-circle {
+		display: block;
+	}
+	
+ 	.about-text {
+		line-height: 1.5;
+		text-align: justify;
+		text-transform: none;
+	}
+	 
+	.skill-botton {
+ 		font-size: .8em; 
+	}
+}
+
+
+@media (min-width: 1300px) {
+	.bg-overlay2 {
+		padding-top: 100px;
+		padding-bottom: 100px;	
+	}
+	
+	.img-circle {
+		width: 7em;
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.skill-botton {
+		font-size: .8em;
+	}
+}
+
+
+/* End of About Page */
+
+/* ============================
+		Portfolio Page
+=============================== */
+
+
+@media (max-height: 630px) {		
+	.bg-overlay3 {
+		color: black;
+	}
+}
+
+
+@media (min-width: 1300px) {
+	.bg-overlay3 {
+		padding-top: 100px;
+	}
+}
+
+/* End of Portfolio Page */
+
+/* ============================
+		Contact Page
+=============================== */
+
+@media (max-height: 630px) {		
+	.bg-overlay4 {
+		color: black;
+		height: 85%;
+		width: 100%;
+	}	
+
+	.contact-text {
+		height: 90%;
+		width: 90%;
+	}
+
+	ul.contact-buttons > li {
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding: 0%;
+	  }
+
+}
+
+@media (min-width: 1300px) {	
+	.bg-overlay4 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+
+
+/* End of Contact Page */
+
+/* ============================
+		Footer
+=============================== */
+
+@media (max-height: 630px) {		
+	.bg-overlay5 {
+		height: 40%;
+		width: 100%;
+	}	
+}
+
+/* End of Footer */
