@@ -129,10 +129,12 @@ h1, h2, h3, h4, h5, h6 {
 	
 	.bg-overlay1 > h1 {
 		font-size: 3em;
+		margin-top: 90px;
 	}
 	
 	.bg-overlay1 > h2 {
 		font-size: 2em;
+		margin-top: 90px;
 	}
 	
 	ul.index-buttons > li {
@@ -149,12 +151,13 @@ h1, h2, h3, h4, h5, h6 {
 =============================== */
 .bg-overlay2 {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	background: url('https://drive.google.com/uc?export=download&id=10l4sRWlji0o-PMNMBuWRx2tzuop5F48-') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	
 }
 
 .page-title {
@@ -187,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	width: 400px;
     height: 200px;
-    background-color: rgba(255,255,0);
+    background-color: #ffe873;
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -202,9 +205,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skill-botton {
-	background-color: rgba(255,255,0,0.8);
+	background-color: none;
 	margin: 5px;
 	font-size: 2em;
+}
+
+.about-img{
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+	margin: 20px;	
+	border: none;
+	background-color:rgba(255, 255, 255, 0.9);
+	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-height: 630px) {
@@ -275,10 +288,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	width: 50%;
 	color: black;
-
 	width: 400px;
 	height: 40px;
 	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
     background-color: rgb(250, 186, 184);
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
@@ -306,7 +320,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     transition: all .2s ease-in-out;
     vertical-align: top;
-    width: 90%;
+	width: 90%;
+	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 	
 .project-box > a:hover,
@@ -336,12 +351,14 @@ h1, h2, h3, h4, h5, h6 {
 		Contact Page
 =============================== */
 .bg-overlay4 {
-	padding: 100px 100px 120px 100px;
+	padding: 50px 100px 200px 100px;
 	background: url('https://drive.google.com/uc?export=download&id=1bkvfSjeA1_HFQePnjW4BcxdkC64yuJ-Z') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	/* height: 700px;	 */
+	
 }
 
 .contact-area {
@@ -366,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-buttons {
-	text-align: left;
+	text-align: center;
 }
 
 .contact-buttons > li {
@@ -392,10 +409,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1300px) {	
-	.bg-overlay4 {
+	/* .bg-overlay4 {
 		padding-top: 100px;
 		padding-bottom: 100px;
-	}
+	} */
 }
 
 
