@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 		Index Page
 =============================== */
 .bg-overlay1 {
-	padding: 100px 0px 50px 0px;
+	padding: 100px 0px 100px 0px;
 	text-align: center;
 	background: url('https://drive.google.com/uc?export=download&id=1Q7DqfQG21xukeOPerChiWc13BKvCu2EV') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -97,7 +97,40 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 2px 2px 2px black;
 }
 
-@media (max-height: 630px) {
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
+	.bg-overlay1 {
+		color: black;
+		height: 900px;
+	}
+
+	.bg-overlay1 > h1 {
+		font-size: 3em;
+		margin-top: 90px;
+	}
+
+	.bg-overlay1 > h2 {
+		font-size: 2em;
+		margin-top: 90px;
+	}
+
+	ul.index-buttons > li {
+		margin-top: -15%;
+		margin-bottom: 0%;
+		padding: 1%;
+	}
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+/*Style*/
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
 	.bg-overlay1 {
 		color: black;
 	}
@@ -118,40 +151,18 @@ h1, h2, h3, h4, h5, h6 {
 		margin-top: 0%;
 		margin-bottom: 0%;
 		box-shadow: 0 10px 10px -10px black;		 		
-	  }
-}
-
-@media (min-width: 1300px) {
-	.bg-overlay1 {
-		color: black;
-		height: 900px;
 	}
-	
-	.bg-overlay1 > h1 {
-		font-size: 3em;
-		margin-top: 90px;
-	}
-	
-	.bg-overlay1 > h2 {
-		font-size: 2em;
-		margin-top: 90px;
-	}
-	
-	ul.index-buttons > li {
-		margin-top: -15%;
-		margin-bottom: 0%;
-		padding: 1%;
-	  }
 }
 
 /* End of Index Page */
+
 
 /* ============================
 		About Page
 =============================== */
 .bg-overlay2 {
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding: 100px 60px 200px 60px;
+	height: 700px;
 	background: url('https://drive.google.com/uc?export=download&id=10l4sRWlji0o-PMNMBuWRx2tzuop5F48-') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -163,7 +174,8 @@ h1, h2, h3, h4, h5, h6 {
 .page-title {
 	font-family: Lobster;
 	letter-spacing: 1.5px;
-	padding-top: 40px;
+	padding-top: 100px;
+	margin-top: 5%;
 	margin-bottom: 2%;
 	font-weight: bolder;
 	font-size: 31px;
@@ -194,11 +206,6 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-.about-text p {
-	padding: 15px;
-}
-
-
 .skills-box {
 	padding: 0px 0px 100px 0px;
 	font-weight:bolder;
@@ -220,39 +227,11 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-height: 630px) {
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
 	.bg-overlay2 {
-		padding-top: 0px;
-		padding-bottom: 0px;
-	}
-	
-	.about-text {
-		padding: 0px 0px;
-	}
-
-	.page-title {
-		font-size: 2em;
-	}
-
-	.img-circle {
-		display: block;
-	}
-	
- 	.about-text {
-		line-height: 1.5;
-		text-align: justify;
-		text-transform: none;
-	}
-	 
-	.skill-botton {
- 		font-size: .8em; 
-	}
-}
-
-
-@media (min-width: 1300px) {
-	.bg-overlay2 {
-		padding-top: 100px;
+		/* padding-top: 100px; */
 		padding-bottom: 100px;	
 	}
 	
@@ -260,22 +239,60 @@ h1, h2, h3, h4, h5, h6 {
 		width: 7em;
 		display: block;
 		margin-left: auto;
-    	margin-right: auto;
+		margin-right: auto;
 	}
-
+	
 	.skill-botton {
 		font-size: .8em;
 	}
 }
 
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+	/*Style*/
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
+	.bg-overlay2 {
+		padding-top: 100px;
+		padding-bottom: 0px;
+	}
+	
+	
+	.page-title {
+		padding-top: 50px;	
+		font-size: 2em;
+	}
+	
+	.img-circle {
+		display: block;
+	}
+	
+	.about-text {
+		line-height: 1.5;
+		text-align: justify;
+		text-transform: none;
+	}
+		
+	.about-text > p {
+		position: absolute;
+	}
+	
+	.skill-botton {
+			font-size: .8em; 
+	}
+}
 
 /* End of About Page */
+
 
 /* ============================
 		Portfolio Page
 =============================== */
 .bg-overlay3 {
-	padding: 50px 60px 100px 60px;
+	padding: 50px 60px 200px 60px;
 	text-align: center;
 	background: url('https://drive.google.com/uc?export=download&id=1irCQsu8ADkmuW_KpeKH9cx4QLZa3ltwg') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -332,32 +349,41 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 }
 
-@media (max-height: 630px) {		
-	.bg-overlay3 {
-		color: black;
-	}
-}
-
-
-@media (min-width: 1300px) {
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
 	.bg-overlay3 {
 		padding-top: 100px;
 	}
 }
 
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+/*Style*/
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
+	.bg-overlay3 {
+		color: black;
+	}
+}
+
 /* End of Portfolio Page */
+
 
 /* ============================
 		Contact Page
 =============================== */
 .bg-overlay4 {
 	padding: 50px 100px 200px 100px;
+	height: 900px;	
 	background: url('https://drive.google.com/uc?export=download&id=1bkvfSjeA1_HFQePnjW4BcxdkC64yuJ-Z') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* height: 700px;	 */
 	
 }
 
@@ -398,25 +424,34 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 2px 2px 2px black;
 }
 
-@media (max-height: 630px) {		
-	.bg-overlay4 {
-		color: black;
-	}	
-
-	.contact-text {
-		color: black;
-	}
-}
-
-@media (min-width: 1300px) {	
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 1024px){
+/*Style*/
 	/* .bg-overlay4 {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	} */
 }
 
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+/*Style*/
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+/*Style*/
+	.bg-overlay4 {
+		color: black;
+	}	
+	
+	.contact-text {
+		color: black;
+	}
+}
 
 /* End of Contact Page */
+
 
 /* ============================
 		Footer
