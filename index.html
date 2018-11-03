@@ -3,7 +3,8 @@
 	<title>Marianna Mangat | Portfolio</title>
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"> -->
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -62,7 +63,7 @@
 			<h2 class="page-title">About Marianna</h2>
 			<img class="img-circle img-responsive avatar" src="https://drive.google.com/uc?export=download&id=1QT16UYvnQAdWIBOAGtPruJnOcYcY6Evm" alt="Marianna's photo">
 			
-			<div class="about-text">
+			<div class="about-text text-box">
 				<p class="text-left">Hi, I'm Marianna Mangat. I'm passionate about business data visualizations. Currently, I'm building my data analytical experience in Python, SQL, and JavaScript.<br/>Following my passion for technology, data science, and web development, I'm excited to put my skills to good work.</p>
 			</div>
 		</div>
@@ -83,7 +84,7 @@
 <a name="portfolio"></a>
  <div class="container-fluid bg-overlay3 text-center">
 	<h2 class="page-title">Portfolio</h2>
-	<p>Check out some of Marianna's recent work.</p>
+	<p id="portfolio-text">Check out some of Marianna's recent work.</p>
 	 <div class="row text-center portfolio-flex"> 
 		 <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4 col-md-offset-0 project-box">
 			 <a href="https://mariannamangat.github.io/html/" target="_blank">
@@ -155,8 +156,11 @@
 	<h2 class="page-title">Contact Marianna</h2>
 	<div class="row">
 			
-		<div class="contact-text">
-			<p class="text-left">Thanks for stopping by!<br></br>I'd love to hear from you!<br/>Drop me a line or say "Hi!" on social media.<br><br/>Kind regards,<br/>Marianna<br><br/>mangat.marianna@gmail.com</p>
+		<div class="contact-box">
+			<p class="text-left">Thanks for stopping by!<br></br>I'd love to hear from you!<br/>Drop me a line or say "Hi!" on social media.<br><br/>Kind regards,<br/>Marianna<br><br/>mangat.marianna@gmail.com</p>	
+		</div>
+		<br>
+		<div>
 			<ul class="list-inline contact-buttons">
 				<li><a href="https://www.linkedin.com/in/mariannamangat/" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-linkedin fa-3x"></i><span></span></a></li>
 				<li><a href="https://github.com/MariannaMangat" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-github fa-3x"></i><span></span></a></li>
@@ -172,16 +176,20 @@
 <!-- Footer -->
 <footer class="col-xs-12 bg-overlay5 text-center">
 	<div class="row">
-		<ul class="list-inline">
-			<li><a href="#home">Home</a></li>
-			<li class="footer-divider"> | </li>
-			<li><a href="#about">About</a></li>
-			<li class="footer-divider"> | </li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li class="footer-divider"> | </li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-		<p class="copyright text-muted small">2018 &copy; Marianna Mangat &mdash; Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> and <span class="glyphicon glyphicon-music" aria-hidden="true"></p>
+		<div id="contact-menu">
+			<ul class="list-inline">
+				<li><a href="#home">Home</a></li>
+				<li class="footer-divider"> | </li>
+				<li><a href="#about">About</a></li>
+				<li class="footer-divider"> | </li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li class="footer-divider"> | </li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		<div>		
+			<p class="copyright text-muted small">2018 &copy; Marianna Mangat &mdash; Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> and <span class="glyphicon glyphicon-music" aria-hidden="true"></p>
+		</div>
 	</div><!-- /.row -->	
 </footer>
 <!-- End of Footer -->

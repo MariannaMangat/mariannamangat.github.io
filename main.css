@@ -4,10 +4,11 @@
 body, html {
 	width: 100%;
 	height: 100%;
-	font-size: 1em; /* 16px */
 	margin: 0;
 	padding: 0;
+    overflow-x: hidden;
 	box-sizing: border-box;
+	font-size: 1em; /* 16px */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,10 +49,18 @@ h1, h2, h3, h4, h5, h6 {
 	background: rgba(255,255,255,0.5);
 	color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+	.navbar{
+		width: 100%;
+	}
+}
+
+
 /* End of Navbar */
 	
 /* ============================
-		Index Page
+		Index Page	
 =============================== */
 .bg-overlay1 {
 	padding: 100px 0px 50px 0px;
@@ -61,23 +70,25 @@ h1, h2, h3, h4, h5, h6 {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-	/* height: 800px; */
+	height: 800px;
 	color: black;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
+/* Aspiring */
 .bg-overlay1 > h2 {
 	font-family: Lobster;
-	font-size: 3em;
+	font-size: 2.5em;
 	letter-spacing: 2px;
-	margin-top: 110px;
+	margin-top: 80px;
 	text-shadow: 3px 3px 10px lightblue;
 	/* position: absolute; */
 }
 
+/* Data Scientist */
 .bg-overlay1 > h1 {
 	margin-top: 0px;
-	font-size: 3.8em;
+	font-size: 3em;
 	letter-spacing: 3px;
 	font-family: Lobster;
 	text-shadow: 3px 3px 10px lightblue;
@@ -97,19 +108,23 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 2px 2px 2px black;
 }
 
-@media (max-height: 630px) {
+@media only screen and (max-width: 600px) {
 	.bg-overlay1 {
 		color: black;
+		padding: 0px 0px;
+		height: 120%;
 	}
 	
+	/* Aspiring */
 	.bg-overlay1 > h2 {
-		font-size: 3em;
-		margin-top: 60px;
+		font-size: 2em;
+		margin-top: 50%;
 		font-family: Lobster;
 		font-size: 40px;
 		letter-spacing: 3px;
 	}
 	
+	/* Data Scientist */
 	.bg-overlay1 > h1 {
 		font-size: 3em;
 	}
@@ -121,22 +136,23 @@ h1, h2, h3, h4, h5, h6 {
 	  }
 }
 
-@media (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 	.bg-overlay1 {
 		color: black;
-		height: 900px;
+	}
+
+	/* Aspiring */
+	.bg-overlay1 > h2 {
+		font-size: 2.5em;
+		margin-top: 90px;
 	}
 	
+	/* Data Scientist */
 	.bg-overlay1 > h1 {
 		font-size: 3em;
-		margin-top: 90px;
 	}
-	
-	.bg-overlay1 > h2 {
-		font-size: 2em;
-		margin-top: 90px;
-	}
-	
+
+
 	ul.index-buttons > li {
 		margin-top: -15%;
 		margin-bottom: 0%;
@@ -194,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-.about-text p {
+.text-box {
 	padding: 15px;
 }
 
@@ -211,31 +227,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-img{
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
 	padding: 10px;
-	margin: 20px;	
+	margin: 5px;	
 	border: none;
 	background-color:rgba(255, 255, 255, 0.9);
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
 }
 
-@media (max-height: 630px) {
+@media only screen and (max-width: 600px) {
 	.bg-overlay2 {
 		padding-top: 0px;
 		padding-bottom: 0px;
 	}
 	
 	.text-box {
-		padding: 0px 0px;
+		padding: 10px 10px;
 		width: 90%;
 		height: 90%;
 	}
-	/* .about-text {
-	} */
 
 	.page-title {
 		font-size: 2em;
+		padding: 0px 0px;
+		margin-top: 30%;
 	}
 
 	.img-circle {
@@ -248,15 +264,20 @@ h1, h2, h3, h4, h5, h6 {
 		text-transform: none;
 	}
 	 
+	.about-img {
+		width: 40%;
+		height: 40%;
+	}
+
 	.skill-botton {
  		font-size: .8em; 
 	}
 }
 
 
-@media (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 	.bg-overlay2 {
-		padding-top: 100px;
+		padding-top: 50px;
 		padding-bottom: 100px;	
 	}
 	
@@ -269,6 +290,13 @@ h1, h2, h3, h4, h5, h6 {
 
 	.skill-botton {
 		font-size: .8em;
+	}
+
+	.about-img{
+		height: 120px;
+		width: 120px;
+		padding: 10px;
+		margin: 20px;
 	}
 }
 
@@ -288,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 }
 
-.bg-overlay3 > p {
+#portfolio-text {
 	margin: 0 auto;
 	width: 50%;
 	color: black;
@@ -336,16 +364,23 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 }
 
-@media (max-height: 630px) {		
+@media only screen and (max-width: 600px) {		
 	.bg-overlay3 {
 		color: black;
+		padding: 0px 0px;
+	}
+
+	#portfolio-text {
+		padding: 10px 10px;
+		width: 80%;
+		height: 80%;
 	}
 }
 
-
-@media (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 	.bg-overlay3 {
-		padding-top: 100px;
+		padding-top: 50px;
+		padding-bottom: 100px;
 	}
 }
 
@@ -374,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 10px;
 }
 
-.contact-text {
+.contact-box {
 	margin: 0 auto;
  	width: 30%;
 	color: black;
@@ -402,21 +437,26 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 2px 2px 2px black;
 }
 
-@media (max-height: 630px) {		
+@media only screen and (max-width: 600px) {		
 	.bg-overlay4 {
 		color: black;
+		padding: 0px 0px;
+		height: 100%;
 	}	
 
-	.contact-text {
+	.contact-box {
 		color: black;
+		padding: 10px 10px;
+		width: 80%;
+		height: 80%;
 	}
 }
 
-@media (min-width: 1300px) {	
-	/* .bg-overlay4 {
-		padding-top: 100px;
+@media only screen and (min-width: 1200px) {
+	.bg-overlay4 {
+		padding-top: 50px;
 		padding-bottom: 100px;
-	} */
+	}
 }
 
 
@@ -434,5 +474,23 @@ h1, h2, h3, h4, h5, h6 {
 .copyright{
 	padding-top: 50px;
 }
+
+@media only screen and (max-width: 600px){
+	.bg-overlay5 {
+		height: 20%;
+		padding: 0px 0px;
+	}
+
+	#contact-menu {
+		/* font-size: 1.5em; */
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	/* .bg-overlay5 {
+	} */
+}
+
 /* End of Footer */
 
