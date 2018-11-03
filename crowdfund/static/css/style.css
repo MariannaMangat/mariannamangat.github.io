@@ -74,9 +74,11 @@ button:focus {
   outline: none;
   box-shadow: none; }
 
-.p_120 {
+.p_50 {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px; 
+  background-color: black;
+}
 
 .pad_top {
   padding-top: 120px; }
