@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 	
 	/* Aspiring */
 	.bg-overlay1 > h2 {
-		font-size: 2em;
-		margin-top: 30%;
+		font-size: 2.5em;
+		margin-top: 50%;
 		font-family: Lobster;
 		letter-spacing: 3px;
 	}
@@ -199,29 +199,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-text {
-	margin: 0 auto;
+	padding: 15px;
+	margin: 0px auto;
 	width: 50%;
 	color: black;
-	width: 400px;
-    height: 200px;
+	width: 320px;
+    height: 260px;
     background-color: #ffe873;
 	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4);
-}
-
-.text-box {
-	padding: 15px;
-}
-
-
-.skills-box {
-	padding: 0px 0px 100px 0px;
-	font-weight:bolder;
-}
-
-.skill-botton {
-	background-color: none;
-	margin: 5px;
-	font-size: 2em;
 }
 
 .about-img{
@@ -237,7 +222,24 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 600px) {
 	.bg-overlay2 {
 		padding-top: 0px;
-		padding-bottom: 0px;
+		padding-bottom: 50px;
+	}
+	
+	
+	.page-title {
+		font-size: 2em;
+		padding: 0px 0px;
+		margin-top: 30%;
+	}
+	
+	.img-circle {
+		display: block;
+	}
+	
+	.about-text {
+		line-height: 1.5;
+		text-align: justify;
+		text-transform: none;
 	}
 	
 	.text-box {
@@ -246,35 +248,15 @@ h1, h2, h3, h4, h5, h6 {
 		height: 90%;
 	}
 
-	.page-title {
-		font-size: 2em;
-		padding: 0px 0px;
-		margin-top: 30%;
-	}
-
-	.img-circle {
-		display: block;
-	}
-	
- 	.about-text {
-		line-height: 1.5;
-		text-align: justify;
-		text-transform: none;
-	}
-	 
 	.about-img {
-		width: 30%;
-		height: 30%;
+		width: 80px;
+		height: 80px;
 		padding: 5px;
-		margin: 5px;
-	}
-
-	.skills-img {
 		margin: 10px;
 	}
 
-	.skill-botton {
- 		font-size: .8em; 
+	.skills-box {
+		padding: 10px 30px 30px 30px;
 	}
 }
 
@@ -372,6 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 	.bg-overlay3 {
 		color: black;
 		padding: 0px 0px;
+		padding-bottom: 50px;
 	}
 
 	#portfolio-text {
@@ -399,9 +382,8 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	height: 800px;	
-	
+	background-size: cover;	
+	/* height: 600px; */
 }
 
 .contact-area {
@@ -417,7 +399,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
  	width: 30%;
 	color: black;
-
 	width: 300px;
     height: 250px;
     padding: 15px;
@@ -444,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 600px) {		
 	.bg-overlay4 {
 		color: black;
-		padding: 0px 0px;
+		padding: 0px 0px 100px 0px;
 	}	
 
 	.contact-box {
@@ -480,7 +461,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (max-width: 600px){
 	.bg-overlay5 {
-		height: 80%;
+		height: 20%;
+		padding: 20px 0px 0px 0px;
 	}
 
 	#contact-menu {
