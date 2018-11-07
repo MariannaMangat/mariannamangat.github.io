@@ -289,7 +289,7 @@ button:focus {
   z-index: 1;
   background: url(../img/banner/home-banner.jpeg) no-repeat scroll center center;
   background-size: cover; 
-  height: 800px;
+  height: 1000px;
   }
   .home_banner_area .banner_inner {
     overflow: hidden;
@@ -308,14 +308,14 @@ button:focus {
         line-height: 60px;
         text-transform: uppercase;
         margin-bottom: 15px; }
-      .home_banner_area .banner_inner .banner_content p {
+      .home_banner_area .banner_inner .banner_content h4 {
         color: #fff;
         font-family: "Roboto", sans-serif;
         font-weight: normal;
-        max-width: 565px;
+        max-width: 520px;
         margin-bottom: 40px;
         line-height: 26px;
-        font-size: 16px; }
+        font-size: 20px; }
       .home_banner_area .banner_inner .banner_content .banner_map_img {
         text-align: right; }
 
@@ -2653,6 +2653,10 @@ h6 {
 ============================================================================================ */
 /* Design Area css
 ============================================================================================ */
+.design_area {
+  height: 800px;
+}
+
 .design_inner .col-lg-7 {
   vertical-align: middle;
   align-self: center; }
