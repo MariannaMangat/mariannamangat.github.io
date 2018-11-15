@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 	  }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
 	.bg-overlay1 {
 		color: black;
 		height: 900px;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
 	.bg-overlay2 {
 		padding-top: 50px;
 		padding-bottom: 100px;	
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
 	.bg-overlay3 {
 		padding-top: 50px;
 		padding-bottom: 100px;
@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
 	.bg-overlay4 {
 		padding-top: 50px;
 		padding-bottom: 100px;
