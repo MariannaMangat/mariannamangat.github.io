@@ -138,12 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-width: 1200px) {
 	.bg-overlay1 {
 		color: black;
+		height: 900px;
 	}
 
 	/* Aspiring */
 	.bg-overlay1 > h2 {
 		font-size: 2.5em;
-		margin-top: 90px;
+		margin-top: 200px;
 	}
 	
 	/* Data Scientist */
